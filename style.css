@@ -2,28 +2,27 @@
     font-family: Black_emerald;
     src: url(fonts/Black_Emerald.ttf);
 }
+
 @font-face {
     font-family: RawglyRegular;
     src: url(fonts/RawglyRegular-MVyWP.otf);
 }
 
-*{
+* {
     margin: 0;
     box-sizing: border-box;
     padding: 0;
 }
 
-body{
+body {
     background-color: #F1E7E0;
 }
 
-header{
+header {
     padding: 0 3vw;
 }
 
-main{
-    padding: 0 3vw;
-}
+main {}
 
 /* NAVBAR */
 
@@ -33,10 +32,13 @@ nav {
     position: sticky;
     top: 0;
     display: flex;
-    align-items: center; /* Vertically center the content */
-    justify-content: space-between; /* Distributes space between the elements */
-    z-index: 3; /* Ensure it stays above other elements */
-    font-family:Black_emerald, Arial, Helvetica, sans-serif;
+    align-items: center;
+    /* Vertically center the content */
+    justify-content: space-between;
+    /* Distributes space between the elements */
+    z-index: 3;
+    /* Ensure it stays above other elements */
+    font-family: Black_emerald, Arial, Helvetica, sans-serif;
     z-index: 3;
 }
 
@@ -45,16 +47,19 @@ nav {
 }
 
 nav h1 {
-    margin: 0; /* Removes default margin around h1 */
-    font-size: 1.5rem; /* Adjust font size */
-    color:#580E20 ;
+    margin: 0;
+    /* Removes default margin around h1 */
+    font-size: 1.5rem;
+    /* Adjust font size */
+    color: #580E20;
 }
 
-#manubar{
+#manubar {
     height: 23px;
     cursor: pointer;
 }
-header ul{
+
+header ul {
     width: 100%;
     height: 2px;
     background-color: #152945;
@@ -81,10 +86,10 @@ header ul{
 
 #menu a {
     color: white;
-    font-size:1.6em;
+    font-size: 1.6em;
     text-decoration: none;
-    display: flex; 
-    align-items: center; 
+    display: flex;
+    align-items: center;
     margin: 10px 0;
     font-weight: 100;
     font-family: "Joan", serif;
@@ -93,10 +98,11 @@ header ul{
 #menu a img {
     margin-right: 1vw;
     width: 1.4rem;
-    vertical-align: middle; /* Ensures image remains vertically aligned */
+    vertical-align: middle;
+    /* Ensures image remains vertically aligned */
 }
 
-.hello_sec{
+.hello_sec {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -107,7 +113,7 @@ header ul{
     border-bottom: #F1E7E0 solid 1px;
 }
 
-.hello_sec h4{
+.hello_sec h4 {
     color: white;
     font-family: "Kalnia", serif;
     font-weight: 300;
@@ -115,25 +121,26 @@ header ul{
     font-size: larger;
 }
 
-.menu_sec{
+.menu_sec {
     margin: 30px 0;
 }
 
-.menu_bot{
+.menu_bot {
     width: 74%;
     margin-top: 55px;
     position: absolute;
     top: 60%;
 }
 
-.about-con{
+.about-con {
     display: flex;
     width: 100%;
     color: white;
-    border-bottom: #F1E7E0 solid 1px;;
+    border-bottom: #F1E7E0 solid 1px;
+    ;
 }
 
-.about-con h4{
+.about-con h4 {
     color: white;
     font-family: "Kalnia", serif;
     font-weight: 300;
@@ -141,28 +148,28 @@ header ul{
     font-size: medium;
 }
 
-#con{
+#con {
     left: 60%;
     position: absolute;
 }
 
-.about-con_content{
+.about-con_content {
     margin: 20px 0;
     display: flex;
 
 }
 
-.about_content{
+.about_content {
     width: 50%;
     line-height: 100%;
     color: white;
     font-family: "Kalnia", serif;
     font-weight: 200;
     font-size: 0.7em;
-    
+
 }
 
-.about_content h3{
+.about_content h3 {
     text-align: end;
     margin-right: 30px;
     font-weight: 300;
@@ -170,7 +177,7 @@ header ul{
     cursor: pointer;
 }
 
-.con_content{
+.con_content {
     left: 60%;
     position: absolute;
     line-height: 100%;
@@ -178,25 +185,29 @@ header ul{
 
 }
 
-.con_content h3{
+.con_content h3 {
     font-family: "Kalnia", serif;
     font-weight: 300;
     font-size: 0.9em;
     margin-bottom: 5px;
 }
 
-.social-ico img{
+.social-ico img {
     width: 1rem;
     margin-right: 5px;
     position: relative;
 }
 
-/* Main Sections */
+/* ------------------------------------------------------------------------------------------ Top Sections --------------------------------------------------------------------------- */
 
 .topsec {
     width: 100%;
     height: 70vh;
-    position: relative; /* Ensures the div stays within the bounds of the section */
+    position: relative;
+    /* Ensures the div stays within the bounds of the section */
+    margin-bottom: 15%;
+    padding: 3vw;
+    margin-top: 3vw;
 }
 
 .topsec div {
@@ -213,15 +224,17 @@ header ul{
     width: 90%;
     height: auto;
     position: relative;
-    top: 0; 
-    transform: translate(0, -3vh); /* Adjusts the image position slightly upward */
+    top: 0;
+    transform: translate(0, -3vh);
+    /* Adjusts the image position slightly upward */
 }
- 
+
 @media (max-width: 768px) {
     .topsec div {
         top: 70px;
     }
-    .topsec{
+
+    .topsec {
         height: 50vh;
     }
 }
@@ -231,251 +244,462 @@ header ul{
         top: 50px;
     }
 
-    .topsec{
+    .topsec {
         height: 40vh;
     }
 }
 
-.scndsec{
-    padding: 200px 0 0 0;
-}
-
-#midgrid{
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-between;
-}
-.grid_left{
-    position: relative;
-    top: 30px;
-    margin-bottom: 20px;
-    width: 20%;
-}
-
-.grid_right{
-    position: relative;
-    top: 200px;
-    margin-bottom: 20px;
-    width: 20%;
-}
-.grid_mid{
-    margin-bottom: 20px;
-    width: 40%;
-}
-
 #wheel {
-    width: 10vw; 
+    width: 10vw;
     position: relative;
-    left: 78vw; 
-    bottom: 80vh; 
+    left: 78vw;
+    bottom: 10%;
 }
 
-.autorot{
+.autorot {
     animation: autorotanimation;
     animation-timeline: view();
 }
-@keyframes autorotanimation{
+
+@keyframes autorotanimation {
     from {
         transform: rotate(0deg);
     }
+
     to {
         transform: rotate(360deg);
     }
 }
 
-.shopnowbutt{
-    border: #152945 3px solid;
-    display:flex;
-    width: 170px;
-    height: 60px;
-    text-align: center;
-    left: 4%;
-    bottom: 100px;
-    position: relative;
-    cursor: pointer;
-    justify-content: center;
+/* ------------------------------------------------------------------------------ Best Seller Section ------------------------------------------------- */
+
+#best-seller {}
+
+.heading {
+    display: flex;
+    flex-direction: column;
     align-items: center;
-    
+    margin-bottom: 20px;
 }
 
-.shopnowbutt a{
-    text-decoration: none;
+.heading img {
+    bottom: 13px;
     position: relative;
-    line-height: 58px;
+    scale: 0.9;
+}
+
+.heading h2 {
+    font-family: "Black_emerald", Arial, Helvetica, sans-serif;
     color: #580E20;
-    font-family: Helvetica, Arial, sans-serif;
-    font-size: 20px;
+    text-align: center;
+    font-size: 2.8rem;
 }
 
-.shopnowbutt img{
-    position: relative;
-    /* width: 25px; */
-    height: 20px;
-    margin: 5px ;
+.card-wrapper {
+    display: flex;
+    align-items: center;
 }
 
-.shopnowbutt:hover {
-    background-color: #580E20;
-    color: #F1E7E0;
-}
-
-
-.videosec video{
+.card-container {
+    display: flex;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
     width: 100%;
-    padding-bottom: 3vw;
+    padding: 20px 60px;
+    gap: 40px;
 }
 
+.card {
+    min-width: 380px;
+    height: 630px;
+    background: #ffffff;
+    color: #000000;
+    border-radius: 16px;
+    padding: 10px;
+    box-shadow: 5px 5px 16px 0px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+}
 
-/* Main section */
+.card-img {
+    width: 100%;
+    height: 82%;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.card h3 {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 1.5rem;
+    line-height: 90%;
+}
+
+.card p {
+    font-size: 1rem;
+    color: #4D4D4D;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 60%;
+}
+
+.review-div {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    align-items: center;
+}
+
+.stars {
+    width: 25%;
+    height: 100%;
+}
+
+.card .item-price {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+    font-weight: 600;
+    line-height: 90%;
+}
+
+.card .item-msrp {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #4D4D4D;
+    text-decoration: line-through red;
+    line-height: 90%;
+}
+
+.card-wrapper #prev,
+.card-wrapper #next {
+    cursor: pointer;
+    position: absolute;
+    border: none;
+}
+
+.card-wrapper #prev img,
+.card-wrapper #next img {
+    padding: 10px;
+    display: block;
+}
+
+#prev {
+    left: 0;
+    margin-left: 20px;
+}
+
+#next {
+    right: 0;
+    margin-right: 20px;
+}
+
+#next img {
+    transform: rotate(180deg)
+}
+
+/* ---------------------------------------------------------------------- Scrolling Text Section ---------------------------------------------------------- */
+
 .scrolling-text-section {
-    overflow: hidden; /* Hide overflow to maintain a clean look */
-    width: 100%; /* Full width for the container */
-    position: relative;
-    border-top:3px solid black  ;
-    border-bottom:3px solid black  ;
+    overflow: hidden;
+    width: 100%;
     height: 60px;
     display: flex;
-    justify-content: center;
     align-items: center;
 }
-
 
 .scrolling-text {
     display: flex;
-    align-items: center;
-    white-space: nowrap; /* Prevent text from wrapping */
-    position: absolute; /* Position absolutely for control */
-    animation: scroll 30s linear infinite; /* Continuous scrolling */
+    white-space: nowrap;
+    animation: scroll 30s linear infinite;
+    /* slower speed */
 }
 
-/* Individual scrolling items */
 .scrolling-con {
     display: flex;
     align-items: center;
-    white-space: nowrap; /* Prevent wrapping */
-    width: 100%;
+    white-space: nowrap;
 }
 
 .scrolling-text span {
-    font-size: 24px;
+    font-size: 2rem;
     font-weight: bold;
     color: #5d2837;
     font-family: Black_emerald, Arial, Helvetica, sans-serif;
-    margin: 0 10px;
+    margin: 0 20px;
 }
 
 .scrolling-img {
     height: 40px;
-    vertical-align: middle;
+    margin: 0 20px;
 }
 
-/* Keyframes for right to left scrolling with a pause */
 @keyframes scroll {
     0% {
-        transform: translateX(100%); /* Start just off-screen to the right */
+        transform: translateX(0);
     }
+
     100% {
-        transform: translateX(-100%); /* Move to just off-screen to the left */
+        transform: translateX(-50%);
     }
 }
 
+/* ---------------------------------------------------------------------------- Commercial Video section ---------------------------------------------------------------------- */
 
-
-/* New Earrings flex section */
-
-/* General styling */
-.new_earring_Sec, .other_jewelries_Sec {
-    text-align: center;
-    margin-bottom: 16vw;
-}
-
-.new_earring_head {
-    font-size: 5rem;
-    font-weight: 100;
-    color: #152945;
-    margin: 7vw;
-    font-family: RawglyRegular, Arial, Helvetica, sans-serif;
-}
-
-.new_earring_head2 {
-    font-size: 5rem;
-    font-weight: 100;
-    color: #152945;
-    margin: 7vw;
-    font-family: RawglyRegular, Arial, Helvetica, sans-serif;
-}
-
-.earring_flex {
+.videosec {
+    width: 100%;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
+    padding: 20px 60px;
+    height: 80vh;
+    overflow: hidden;
 }
 
-.earring_1, .earring_2, .earring_3, .earring_4 {
-    width: 22%;
+.jw-comm-video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 20px;
 }
 
-.earring_1 {
+/* ---------------------------------------------------------------------------- Shop By Category section ---------------------------------------------------------------------- */
+
+#shop-category .heading img {
+    bottom: 8px;
     position: relative;
-    top: 100px;
 }
 
-.earring_2 {
-    position: relative;
-    top: 40px;
+#shop-category {
+    margin-top: 80px;
 }
 
-.earring_3 {
-    position: relative;
-    top: 200px;
-}
-
-.shopnowbutt2 {
-    border: #152945 3px solid;
+.category-tabs {
     display: flex;
-    width: 170px;
-    height: 60px;
-    text-align: center;
-    left: 94.5%;
-    transform: translate(-94.5%, 0);
-    top: 70px;
-    position: relative;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 30px;
+}
+
+.category-tabs .cat-tab {
+    border: none;
+    background: transparent;
+    color: #580E20;
+    font-size: 1.5rem;
     cursor: pointer;
+    transition: 0.3s;
+    position: static;
+}
+
+.category-tabs .cat-tab.active {
+    text-decoration: underline;
+}
+
+.category-tabs .cat-tab:hover {
+    color: #000000;
+}
+
+.card-wrapper .cat-prev,
+.card-wrapper .cat-next {
+    cursor: pointer;
+    position: absolute;
+    border: none;
+}
+
+.card-wrapper .cat-prev img,
+.card-wrapper .cat-next img {
+    padding: 10px;
+    display: block;
+}
+
+.cat-prev {
+    left: 0;
+    margin-left: 20px;
+}
+
+.cat-next {
+    right: 0;
+    margin-right: 20px;
+}
+
+.cat-next img {
+    transform: rotate(180deg)
+}
+
+/* ---------------------------------------------------------------------------- Handmade With Care section ---------------------------------------------------------------------- */
+
+#handmade-with-care {
+    margin-top: 80px;
+    display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+    width: 100%;
 }
 
-.shopnowbutt2 a {
-    text-decoration: none;
+#handmade-with-care .heading img {
+    bottom: 10px;
     position: relative;
-    line-height: 58px;
+}
+
+#handmade-with-care .main-div {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    gap: 100px;
+    padding: 0 50px;
+    margin-top: 50px;
+}
+
+#handmade-with-care .left-div {
+    width: 40%;
+}
+
+#handmade-with-care .right-div {
+    width: 40%;
+    position: sticky;
+    top: 200px;
+    margin-top: 20px;
+}
+
+#handmade-with-care .right-div img {
+    width: 100%;
+}
+
+.processes {
+    padding: 20px 0;
+    border-bottom: #580E20 solid 1px;
+}
+
+.processes div {
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #152945;
+    display: inline-block;
+    color: #ffffff;
+    border-radius: 5px;
+    padding: 5px 20px 3px 20px;
+    margin: 10px 0;
+}
+
+.processes h2 {
+    font-family: "RawglyRegular", Arial, Helvetica, sans-serif;
+    font-size: 3rem;
     color: #580E20;
-    font-family: Helvetica, Arial, sans-serif;
-    font-size: 20px;
+    font-weight: normal;
+
 }
 
-.shopnowbutt2 img {
+.processes p {
+    font-size: 1.3rem;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 95%;
+}
+
+/* ----------------------------------------------------------------------------------- Instagramm ------------------------------------------------------------------------------- */
+
+#instagram {
+    margin-top: 100px;
+}
+
+#instagram .heading img {
+    bottom: 10px;
     position: relative;
-    height: 20px;
-    margin: 5px;
 }
 
-.shopnowbutt2:hover {
+#instagram .images {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 5px;
+    margin-top: 50px;
+}
+
+#instagram .images div {
+    position: relative;
+}
+
+#instagram .images div .main_img {
+    width: 100%;
+    display: block;
+    cursor: pointer;
+    transition: 500ms;
+}
+
+#instagram .images div .main_img:hover {
+    filter: brightness(0.5);
+    transition: 500ms;
+
+}
+
+#instagram .images div .ig_logo {
+    width: 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+    z-index: 5;
+}
+
+#instagram .images div:hover .ig_logo {
+    display: block;
+}
+
+
+/* ------------------------------------------------------------------------------ Join Our Newsletter ------------------------------------------------------------------------------- */
+
+#join-our-newsletter {
+    margin: 100px 60px;
+}
+
+#join-our-newsletter h2 {
+    font-size: 5rem;
+    color: #580E20;
+    font-family: "Black_emerald", Arial, Helvetica, sans-serif;
+}
+
+#join-our-newsletter P {
+    color: #152945;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3rem;
+}
+
+#join-our-newsletter div {
+    margin-top: 20px;
+    width: 40%;
+    display: flex;
+
+}
+
+#join-our-newsletter input {
+    width: 80%;
+    height: 60px;
+    border: #580E20 solid 2px;
+    padding: 10px;
+    font-size: 1.5rem;
+}
+
+#join-our-newsletter button {
     background-color: #580E20;
+    border: none;
     color: #F1E7E0;
+    width: 20%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
 }
 
-
-
-/* Footer */
+/* ------------------------------------------------------------------------------------- Footer ------------------------------------------------------------------------------- */
 
 footer {
     background-color: #580E20;
     color: #F1E7E0;
     padding: 2rem 3vw;
     font-family: Arial, sans-serif;
-    margin-top: 18vw;
 }
 
 .footer-container {
@@ -493,7 +717,7 @@ footer {
     flex: 1;
     text-align: right;
     margin-top: 1rem;
-    
+
 }
 
 .brand-name {
@@ -562,78 +786,48 @@ footer {
 
 /* Tab View */
 
-@media (max-width: 1270px) {
+@media (max-width: 1280px) {
 
     #menu.expanded {
         /* height: 50vh; */
     }
-    
+
     .scndsec {
-        padding: 100px 0 0 0; /* Adjust padding for tablet */
+        padding: 100px 0 0 0;
+        /* Adjust padding for tablet */
     }
 
     #midgrid {
         flex-wrap: wrap;
-        justify-content: space-between; /* Space them evenly in tablet view */
+        justify-content: space-between;
+        /* Space them evenly in tablet view */
 
     }
 
-    .grid_left, .grid_mid, .grid_right {
-        width: 45%; /* Adjust the width for two columns in tablet view */
-        top: 0; /* Ensure equal space above each image */
+    #handmade-with-care .main-div {
+        width: 90%;
+        padding: 0;
+        gap: 50px;
     }
 
-    .grid_mid_2 {
-        display: block; /* Add new image to the middle */
-        width: 45%; /* Same width as the others */
-        position: relative;
-        top: 0;
-        margin-top: 20px;
+    #handmade-with-care .left-div {
+        width: 55%;
     }
 
-    .grid_right{
-        position: relative;
-        left: 50%;
-        transform: translate(-50%, 0);
-        margin: 0;
-    }
 
-    .earring_1{
-        position: relative;
-        top: 80px;
-    
+    .processes h2 {
+        font-size: 2.5rem;
     }
-    
-    .earring_2{
-        position: relative;
-        top: 35px;
-    }
-    
-    .earring_3{
-        position: relative;
-        top: 123px;
-    
-    }
-
-    .shopnowbutt2{
-        left: 50%;
-        top: 70px;
-        transform: translate(-50%, 0);
-        width: 190px;
-        margin: 10vw 0;
-    }
-
-    /* #wheel {
-        width: 10vw; 
-        left: 80vw; 
-        top: 160vh; 
-    } */
 
 }
 
 /* Mobile View */
 
 @media (max-width: 768px) {
+
+    nav {
+        height: 8vh;
+    }
 
     #menu {
         flex-direction: column;
@@ -649,117 +843,94 @@ footer {
         /* height: 50vh ; */
     }
 
-    .about_content h3{
-        text-align:start;
+    .about_content h3 {
+        text-align: start;
         margin-top: 20px;
     }
 
-    .scndsec {
-        padding: 100px 0 12px 0; /* Adjust padding for mobile */
+    .card-container {
+        padding: 20px 20px;
+        gap: 30px;
     }
 
-    #midgrid {
-        flex-direction: column; /* Stack images vertically */
+    .card {
+        min-width: 300px;
+        height: 430px;
+        background: #ffffff;
+        color: #000000;
+        border-radius: 16px;
+        padding: 10px;
+        box-shadow: 5px 5px 16px 0px rgba(0, 0, 0, 0.25);
+        cursor: pointer;
+    }
+
+    .card h3 {
+        font-family: Helvetica, Arial, sans-serif;
+        font-size: 1.3rem;
+        line-height: 90%;
+    }
+
+    .price-div {
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
         align-items: center;
     }
 
-    .grid_left, .grid_mid, .grid_right {
-        width: 90%; /* Make images take most of the screen width */
-        top: 0; /* Ensure the space above each image is uniform */
-    }
-
-    .shopnowbutt{
-        width: 190px;
-        left: 50%;
-        bottom: 5px;
-        transform: translate(-50%, 0);
-        margin: 10vw 0;
-    }
-
-    .grid_right{
-        position: relative;
-        left: 0;
-        transform: translate(0, 0);
+    .videosec {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        padding: 20px 20px;
+        height: 70vh;
+        overflow: hidden;
     }
 
     #wheel {
-        width: 15vw; 
+        width: 15vw;
         z-index: 1;
     }
 
-    .new_earring_head{
+    #join-our-newsletter h2 {
         font-size: 3rem;
-        margin-top: 10vw;
     }
 
-    .earring_1{
-        position: relative;
-        top: 36px;
-    
-    }
-    
-    .earring_2{
-        position: relative;
-        top: 16px;
-    }
-    
-    .earring_3{
-        position: relative;
-        top: 36px;
-    
+    #join-our-newsletter P {
+        color: #152945;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1rem;
     }
 
-    .earring_4{
-        position: relative;
-        top: 16px;
+    #join-our-newsletter div {
+        margin-top: 20px;
+        width: 70%;
+        display: flex;
     }
 
-    .shopnowbutt2{
-        left: 50%;
-        top: 70px;
-        transform: translate(-50%, 0);
-        width: 190px;
-        margin-bottom: 40vw;
+    #join-our-newsletter {
+        margin: 80px 40px;
     }
 
-    .new_earring_Sec{
-        margin-bottom: 24vw;
-    }
-    
-    .brand-name {
-        font-size: 1.7rem;
-        margin-bottom: 2rem;
-    }
-    .footer-right{
+    .footer-right {
         margin-top: 1.7rem;
     }
 
-    .earring_flex {
-        justify-content: center;
+    #instagram .images {
+        grid-template-columns: repeat(4, 1fr);
     }
 
-    .earring_1, .earring_2, .earring_3, .earring_4 {
-        width: 40%; /* Two columns on mobile */
-        margin: 20px auto;
-    }
-
-    .shopnowbutt2 {
-        left: 50%;
-        transform: translate(-50%, 0);
-        top: 30px;
-    }
-
-    .new_earring_head2 {
-        margin-top: -20vw;
-        font-size: 3rem;
-    }
 }
 
 @media (max-width: 480px) {
+
+    .topsec div img {
+        width: 100% !important;
+    }
+
     #wheel {
-        width: 20vw; 
-        left: 70vw; 
-        bottom: 27vh;
+        width: 20vw;
+        left: 70vw;
+        bottom: 5vh;
     }
 
     #menu {
@@ -776,17 +947,226 @@ footer {
         /* height: 70vh ; */
     }
 
-    #con{
-        left: 50%;
+    .heading h2 {
+        font-size: 2rem;
     }
-    
-    .con_content{
+
+    #con {
         left: 50%;
     }
 
-    .about_content{
+    .con_content {
+        left: 50%;
+    }
+
+    .about_content {
         width: 50%;
         padding-right: 10px;
-        
+    }
+
+    .heading {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 0px;
+        width: 100%;
+    }
+
+    .heading img {
+        bottom: 13px;
+        position: relative;
+        scale: 0.65;
+    }
+
+    .card-container {
+        padding: 20px 10px;
+        gap: 10px;
+    }
+
+    .card {
+        min-width: 200px;
+        height: 300px;
+        border-radius: 10px;
+        padding: 8px;
+    }
+
+    .card-img {
+        width: 100%;
+        height: 78%;
+        object-fit: cover;
+        border-radius: 5px;
+        margin-bottom: 5px;
+    }
+
+    .card h3 {
+        font-size: 1.05rem;
+        line-height: 90%;
+    }
+
+    .card p {
+        font-size: 0.8rem;
+        color: #4D4D4D;
+        font-family: Arial, Helvetica, sans-serif;
+        line-height: 60%;
+    }
+
+    .stars {
+        width: 29%;
+        height: 100%;
+    }
+
+    .card .item-price {
+        font-size: 1rem;
+    }
+
+    .info {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    .scrolling-text-section {
+        height: auto;
+    }
+
+    .scrolling-text span {
+        font-size: 1.5rem;
+        font-weight: bold;
+        color: #5d2837;
+        font-family: Black_emerald, Arial, Helvetica, sans-serif;
+        margin: 0 10px;
+    }
+
+    .scrolling-img {
+        height: 30px;
+        margin: 0 10px;
+    }
+
+    .videosec {
+        padding: 20px 10px;
+        height: 60vh;
+    }
+
+    .jw-comm-video {
+        border-radius: 15px;
+    }
+
+    #shop-category {
+        margin-top: 40px;
+    }
+
+    .category-tabs {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        margin-bottom: 30px;
+    }
+
+    .category-tabs .cat-tab {
+        border: none;
+        background: transparent;
+        color: #580E20;
+        font-size: 1.4rem;
+        cursor: pointer;
+        transition: 0.3s;
+        position: static;
+    }
+
+    #handmade-with-care .main-div {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: start;
+        gap: 10px;
+        padding: 0 20px;
+        margin-top: 20px;
+        flex-direction: column-reverse;
+    }
+
+    #handmade-with-care .right-div {
+        width: 100%;
+        position: relative;
+        top: 0;
+        margin-top: 0;
+    }
+
+    #handmade-with-care .left-div {
+        width: 100%;
+    }
+
+    .processes h2 {
+        font-size: 2rem;
+    }
+
+    #instagram {
+        margin-top: 50px;
+    }
+
+    #instagram .images {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    #join-our-newsletter {
+        margin: 40px 20px;
+    }
+
+    #join-our-newsletter h2 {
+        font-size: 2.3rem;
+    }
+
+    #join-our-newsletter div {
+        margin-top: 20px;
+        width: 100%;
+        display: flex;
+    }
+
+    #join-our-newsletter P {
+        margin-top: 10px;
+    }
+
+    .footer-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        padding: 2rem 0;
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .brand-name {
+        font-size: 3.3rem;
+    }
+
+    .footer-right {
+        flex: 1;
+        text-align: left;
+        margin-top: 0;
+        flex-direction: column-reverse;
+        display: flex;
+        gap: 20px;
+    }
+
+    .social-icons {
+        display: flex;
+        justify-content: flex-start;
+        gap: 1rem;
+        margin-bottom: 0;
+    }
+
+    .footer-links {
+        list-style: none;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.5rem;
+    }
+
+    .footer-bottom {
+        margin-top: 0;
+    }
+
+    footer {
+        padding: 2rem 20px;
     }
 }
