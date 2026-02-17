@@ -149,24 +149,23 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 
   // Scroll buttons
-  const next = document.getElementById("next");
-  const prev = document.getElementById("prev");
+  function getScrollAmount() {
+    const card = container.querySelector(".card");
+    if (!card) return 300; // fallback
+
+    const style = window.getComputedStyle(card);
+    const gap = parseInt(style.marginRight) || 0;
+
+    return card.offsetWidth + gap;
+  }
 
   next.onclick = () => {
-    container.scrollLeft += 420;
+    container.scrollLeft += getScrollAmount();
   };
 
   prev.onclick = () => {
-    container.scrollLeft -= 420;
+    container.scrollLeft -= getScrollAmount();
   };
-
-  // Arrow updates on scroll
-  container.addEventListener("scroll", () => {
-    updateArrows(container, prev, next);
-  });
-
-  // Initial arrow state
-  updateArrows(container, prev, next);
 
   // --------------------------------------------------------------
   // Shop by Category Section
@@ -388,13 +387,13 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 
   // Scroll buttons
-  catNext.onclick = () => {
-    categoryContainer.scrollLeft += 420;
-  };
+catNext.onclick = () => {
+  categoryContainer.scrollLeft += getScrollAmount();
+};
 
-  catPrev.onclick = () => {
-    categoryContainer.scrollLeft -= 420;
-  };
+catPrev.onclick = () => {
+  categoryContainer.scrollLeft -= getScrollAmount();
+};
 
   // Update arrows on scroll
   categoryContainer.addEventListener("scroll", () => {
