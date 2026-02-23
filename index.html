@@ -18,333 +18,338 @@
 </head>
 
 <body>
-    <div data-scroll-container>
-        <header>
-            <nav>
-                <img id="logo" src="contents/logo.png" alt="jfj_logo">
-                <h1>Celestial Luxe</h1>
-                <img id="manubar" src="contents/manubar.png" alt="manubar">
-            </nav>
-            <ul></ul>
-            <div id="menu">
-                <div class="hello_sec">
-                    <h4>Howdy!</h4>
-                    <h4 class="login">Login / Register</h4>
-                </div>
 
-                <div class="menu_sec">
-                    <a href="../"><img src="contents/home_icon.png" alt="Home icon"> Home</a>
-                    <a href="/other_pages/info.html"><img src="contents/cart_icon.png" alt="Contact Icon"> Shop by Categories</a>
-                    <a href="/other_pages/info.html"><img src="contents/offer_icon.png" alt="Offer Icon"> Offers/Deals</a>
-                    <a href="/other_pages/info.html"><img src="contents/info_icon.png" alt="Info Icon"> About Us</a>
-                    <a href="/other_pages/info.html"><img src="contents/contact_icon.png" alt="Phone Image"> Contact Us</a>
-                </div>
-
-                <div class="menu_bot">
-                    <div class="about-con">
-                        <h4>About</h4>
-                        <h4 id="con">Contact</h4>
-                    </div>
-
-                    <div class="about-con_content">
-                        <div class="about_content">
-                            This is a small company, valea dhilkana, we sell something then something and something
-                            also.
-                            <h3><u>READ MORE</u></h3>
-                        </div>
-                        <div class="con_content">
-                            <h3>Product Enquiry</h3>
-                            <h3>Track Order</h3>
-                            <div class="social-ico">
-                                <img src="contents/ig.png" alt="Instagram">
-                                <img src="contents/whatsapp.png" alt="Whatsapp">
-                                <img src="contents/fb.png" alt="Facebook">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-
+    <header>
+        <nav>
+            <img id="logo" src="contents/logo.png" alt="jfj_logo">
+            <h1>Celestial Luxe</h1>
+            <img id="manubar" src="contents/manubar.png" alt="manubar">
+        </nav>
+        <ul></ul>
+        <div id="menu">
+            <div class="hello_sec">
+                <h4>Howdy!</h4>
+                <h4 class="login">Login / Register</h4>
             </div>
-        </header>
-        <main>
 
-            <!-------------------------------------------------------------------------------- Top Section ------------------------------------------------------------------------->
+            <div class="menu_sec">
+                <a href="../"><img src="contents/home_icon.png" alt="Home icon"> Home</a>
+                <a href="/product_page/product_page.html"><img src="contents/cart_icon.png" alt="Contact Icon"> Shop by
+                    Categories</a>
+                <a href="/other_pages/info.html"><img src="contents/offer_icon.png" alt="Offer Icon"> Offers/Deals</a>
+                <a href="/other_pages/info.html"><img src="contents/info_icon.png" alt="Info Icon"> About Us</a>
+                <a href="/other_pages/info.html"><img src="contents/contact_icon.png" alt="Phone Image"> Contact Us</a>
+            </div>
 
-            <section class="topsec">
+            <div class="menu_bot">
+                <div class="about-con">
+                    <h4>About</h4>
+                    <h4 id="con">Contact</h4>
+                </div>
+
+                <div class="about-con_content">
+                    <div class="about_content">
+                        This is a small company, valea dhilkana, we sell something then something and something
+                        also.
+                        <h3><u>READ MORE</u></h3>
+                    </div>
+                    <div class="con_content">
+                        <h3>Product Enquiry</h3>
+                        <h3>Track Order</h3>
+                        <div class="social-ico">
+                            <img src="contents/ig.png" alt="Instagram">
+                            <img src="contents/whatsapp.png" alt="Whatsapp">
+                            <img src="contents/fb.png" alt="Facebook">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </header>
+    <main>
+
+        <!-------------------------------------------------------------------------------- Top Section ------------------------------------------------------------------------->
+
+        <section class="topsec">
+            <div>
+                <img src="contents/top.png" alt="toppic">
+            </div>
+            <img src="contents/circle.png" alt="wheel" class="autorot" id="wheel">
+        </section>
+
+        <!----------------------------------------------------------------------------- Best Seller Section --------------------------------------------------------------------->
+
+        <section id="best-seller">
+            <div class="heading">
+                <h2>Best Sellers</h2>
+                <img src="/contents/head-underline.png" alt="Lines">
+            </div>
+            <div class="card-wrapper">
+                <button id="prev"><img src="/contents/arrow.svg" alt="arrow"></button>
+
+                <div class="card-container" id="cardContainer">
+                    <!-- Cards will be injected here -->
+                </div>
+
+                <button id="next"><img src="/contents/arrow.svg" alt="arrow"></button>
+            </div>
+        </section>
+
+        <!----------------------------------------------------------------------------- Marquee Section --------------------------------------------------------------------->
+
+        <section class="scrolling-text-section">
+            <div class="scrolling-text">
+                <div class="scrolling-con">
+                    <span>&nbsp;Handcrafted With Care &nbsp;</span>
+                    <img src="contents/scrollgif_img.png" class="scrolling-img">
+                    <span>&nbsp;Where Craft Meets Elegance &nbsp;</span>
+                    <img src="contents/scrollgif_img2.png" class="scrolling-img">
+                    <span>&nbsp;Subtle Shine, Lasting Style &nbsp;</span>
+                    <img src="contents/scrollgif_img3.png" class="scrolling-img">
+                </div>
+
+                <!-- duplicate once -->
+                <div class="scrolling-con" aria-hidden="true">
+                    <span>&nbsp;Handcrafted With Care &nbsp;</span>
+                    <img src="contents/scrollgif_img.png" class="scrolling-img">
+                    <span>&nbsp;Where Craft Meets Elegance &nbsp;</span>
+                    <img src="contents/scrollgif_img2.png" class="scrolling-img">
+                    <span>&nbsp;Subtle Shine, Lasting Style &nbsp;</span>
+                    <img src="contents/scrollgif_img3.png" class="scrolling-img">
+                </div>
+
+                <!-- duplicate twice -->
+                <div class="scrolling-con" aria-hidden="true">
+                    <span>&nbsp;Handcrafted With Care &nbsp;</span>
+                    <img src="contents/scrollgif_img.png" class="scrolling-img">
+                    <span>&nbsp;Where Craft Meets Elegance &nbsp;</span>
+                    <img src="contents/scrollgif_img2.png" class="scrolling-img">
+                    <span>&nbsp;Subtle Shine, Lasting Style &nbsp;</span>
+                    <img src="contents/scrollgif_img3.png" class="scrolling-img">
+                </div>
+
+                <!-- duplicate thrice -->
+                <div class="scrolling-con" aria-hidden="true">
+                    <span>&nbsp;Handcrafted With Care &nbsp;</span>
+                    <img src="contents/scrollgif_img.png" class="scrolling-img">
+                    <span>&nbsp;Where Craft Meets Elegance &nbsp;</span>
+                    <img src="contents/scrollgif_img2.png" class="scrolling-img">
+                    <span>&nbsp;Subtle Shine, Lasting Style &nbsp;</span>
+                    <img src="contents/scrollgif_img3.png" class="scrolling-img">
+                </div>
+            </div>
+        </section>
+
+        <!----------------------------------------------------------------------------- Commercial Video Section --------------------------------------------------------------------->
+        <section class="videosec">
+            <video autoplay loop muted class="jw-comm-video">
+                <source src="contents/jw-comm-video.mp4" fetchpriority="high" type="video/mp4"
+                    media="(min-width: 768px)">
+                <source src="contents/jw-comm-video.mp4" type="video/mp4" media="(max-width: 767px)">
+            </video>
+        </section>
+
+        <!----------------------------------------------------------------------------- Shop By Category Section --------------------------------------------------------------------->
+
+
+        <section id="shop-category">
+
+            <div class="heading">
+                <h2>Shop By Category</h2>
+                <img src="/contents/lines-for-shop-by-ctg.png" alt="Lines">
+            </div>
+
+            <!-- Category Tabs -->
+            <div class="category-tabs">
+                <button class="cat-tab active" data-category="rings">Rings</button>
+                <button class="cat-tab" data-category="earrings">Earrings</button>
+                <button class="cat-tab" data-category="churies">Churies</button>
+                <button class="cat-tab" data-category="pendants">Pendants</button>
+            </div>
+
+            <div class="card-wrapper">
+                <button class="cat-prev"><img src="/contents/arrow.svg" alt="arrow"></button>
+
+                <div class="card-container" id="categoryContainer">
+                    <!-- Category cards injected here -->
+                </div>
+
+                <button class="cat-next"><img src="/contents/arrow.svg" alt="arrow"></button>
+            </div>
+
+        </section>
+
+        <!----------------------------------------------------------------------------- Handmade With Care  --------------------------------------------------------------------->
+
+        <section id="handmade-with-care">
+            <div class="heading">
+                <h2>Handmade With Care</h2>
+                <img src="/contents/lines-for-hanmade-w-c.png" alt="Lines">
+            </div>
+            <div class="main-div">
+                <div class="left-div">
+                    <div class="processes">
+                        <div class="process_number">process 1</div>
+                        <h2>Material Selection</h2>
+                        <p>We carefully choose every metal, stone, and component
+                            before crafting begins. Only quality, skin-safe, and durable
+                            materials are used to ensure comfort and longevity.
+                        </p>
+                    </div>
+
+                    <div class="processes">
+                        <div class="process_number">process 2</div>
+                        <h2>Handcrafting & Shaping</h2>
+                        <p>Each piece is shaped, cut, and assembled by hand using traditional
+                            tools and techniques. No mass production—every item receives individual attention.
+                        </p>
+                    </div>
+
+                    <div class="processes">
+                        <div class="process_number">process 3</div>
+                        <h2>Polishing & Finishing</h2>
+                        <p>After shaping, every piece is carefully polished and finished
+                            to achieve a smooth, refined look. This step enhances shine, comfort,
+                            and overall quality.
+                        </p>
+                    </div>
+
+                    <div class="processes" style="border-bottom: none;">
+                        <div class="process_number">process 4</div>
+                        <h2>Quality Check & Packaging</h2>
+                        <p>Each piece is inspected to ensure it meets our quality standards.
+                            It is then gently packed in protective,
+                            elegant packaging—ready to reach you safely.
+                        </p>
+                    </div>
+                </div>
+                <div class="right-div">
+                    <img src="/contents/Material_Selection.png" alt="Material Selection Png">
+                </div>
+            </div>
+        </section>
+
+        <!------------------------------------------------------------------------------------- Instagram --------------------------------------------------------------------------->
+
+        <section id="instagram">
+            <div class="heading">
+                <h2>@celestial_luxe_official</h2>
+                <img src="/contents/lines-for-instagram.png" alt="Lines">
+            </div>
+
+            <div class="images">
                 <div>
-                    <img src="contents/top.png" alt="toppic">
+                    <img class="ig_logo" src="/contents/ig.png" alt="ig_logo">
+                    <img class="main_img" src="/contents/insta_images/ig1.png" alt="ig1">
                 </div>
-                <img src="contents/circle.png" alt="wheel" class="autorot" id="wheel">
-            </section>
-
-            <!----------------------------------------------------------------------------- Best Seller Section --------------------------------------------------------------------->
-
-            <section id="best-seller">
-                <div class="heading">
-                    <h2>Best Sellers</h2>
-                    <img src="/contents/head-underline.png" alt="Lines">
-                </div>
-                <div class="card-wrapper">
-                    <button id="prev"><img src="/contents/arrow.svg" alt="arrow"></button>
-
-                    <div class="card-container" id="cardContainer">
-                        <!-- Cards will be injected here -->
-                    </div>
-
-                    <button id="next"><img src="/contents/arrow.svg" alt="arrow"></button>
-                </div>
-            </section>
-
-            <!----------------------------------------------------------------------------- Marquee Section --------------------------------------------------------------------->
-
-            <section class="scrolling-text-section">
-                <div class="scrolling-text">
-                    <div class="scrolling-con">
-                        <span>&nbsp;Handcrafted With Care &nbsp;</span>
-                        <img src="contents/scrollgif_img.png" class="scrolling-img">
-                        <span>&nbsp;Where Craft Meets Elegance &nbsp;</span>
-                        <img src="contents/scrollgif_img2.png" class="scrolling-img">
-                        <span>&nbsp;Subtle Shine, Lasting Style &nbsp;</span>
-                        <img src="contents/scrollgif_img3.png" class="scrolling-img">
-                    </div>
-
-                    <!-- duplicate once -->
-                    <div class="scrolling-con" aria-hidden="true">
-                        <span>&nbsp;Handcrafted With Care &nbsp;</span>
-                        <img src="contents/scrollgif_img.png" class="scrolling-img">
-                        <span>&nbsp;Where Craft Meets Elegance &nbsp;</span>
-                        <img src="contents/scrollgif_img2.png" class="scrolling-img">
-                        <span>&nbsp;Subtle Shine, Lasting Style &nbsp;</span>
-                        <img src="contents/scrollgif_img3.png" class="scrolling-img">
-                    </div>
-
-                    <!-- duplicate twice -->
-                    <div class="scrolling-con" aria-hidden="true">
-                        <span>&nbsp;Handcrafted With Care &nbsp;</span>
-                        <img src="contents/scrollgif_img.png" class="scrolling-img">
-                        <span>&nbsp;Where Craft Meets Elegance &nbsp;</span>
-                        <img src="contents/scrollgif_img2.png" class="scrolling-img">
-                        <span>&nbsp;Subtle Shine, Lasting Style &nbsp;</span>
-                        <img src="contents/scrollgif_img3.png" class="scrolling-img">
-                    </div>
-
-                    <!-- duplicate thrice -->
-                    <div class="scrolling-con" aria-hidden="true">
-                        <span>&nbsp;Handcrafted With Care &nbsp;</span>
-                        <img src="contents/scrollgif_img.png" class="scrolling-img">
-                        <span>&nbsp;Where Craft Meets Elegance &nbsp;</span>
-                        <img src="contents/scrollgif_img2.png" class="scrolling-img">
-                        <span>&nbsp;Subtle Shine, Lasting Style &nbsp;</span>
-                        <img src="contents/scrollgif_img3.png" class="scrolling-img">
-                    </div>
-                </div>
-            </section>
-
-            <!----------------------------------------------------------------------------- Commercial Video Section --------------------------------------------------------------------->
-            <section class="videosec">
-                <video autoplay loop muted class="jw-comm-video">
-                    <source src="contents/jw-comm-video.mp4" fetchpriority="high" type="video/mp4"
-                        media="(min-width: 768px)">
-                    <source src="contents/jw-comm-video.mp4" type="video/mp4" media="(max-width: 767px)">
-                </video>
-            </section>
-
-            <!----------------------------------------------------------------------------- Shop By Category Section --------------------------------------------------------------------->
-
-
-            <section id="shop-category">
-
-                <div class="heading">
-                    <h2>Shop By Category</h2>
-                    <img src="/contents/lines-for-shop-by-ctg.png" alt="Lines">
-                </div>
-
-                <!-- Category Tabs -->
-                <div class="category-tabs">
-                    <button class="cat-tab active" data-category="rings">Rings</button>
-                    <button class="cat-tab" data-category="earrings">Earrings</button>
-                    <button class="cat-tab" data-category="churies">Churies</button>
-                    <button class="cat-tab" data-category="pendants">Pendants</button>
-                </div>
-
-                <div class="card-wrapper">
-                    <button class="cat-prev"><img src="/contents/arrow.svg" alt="arrow"></button>
-
-                    <div class="card-container" id="categoryContainer">
-                        <!-- Category cards injected here -->
-                    </div>
-
-                    <button class="cat-next"><img src="/contents/arrow.svg" alt="arrow"></button>
-                </div>
-
-            </section>
-
-            <!----------------------------------------------------------------------------- Handmade With Care  --------------------------------------------------------------------->
-
-            <section id="handmade-with-care">
-                <div class="heading">
-                    <h2>Handmade With Care</h2>
-                    <img src="/contents/lines-for-hanmade-w-c.png" alt="Lines">
-                </div>
-                <div class="main-div">
-                    <div class="left-div">
-                        <div class="processes">
-                            <div class="process_number">process 1</div>
-                            <h2>Material Selection</h2>
-                            <p>We carefully choose every metal, stone, and component
-                                before crafting begins. Only quality, skin-safe, and durable
-                                materials are used to ensure comfort and longevity.
-                            </p>
-                        </div>
-
-                        <div class="processes">
-                            <div class="process_number">process 2</div>
-                            <h2>Handcrafting & Shaping</h2>
-                            <p>Each piece is shaped, cut, and assembled by hand using traditional
-                                tools and techniques. No mass production—every item receives individual attention.
-                            </p>
-                        </div>
-
-                        <div class="processes">
-                            <div class="process_number">process 3</div>
-                            <h2>Polishing & Finishing</h2>
-                            <p>After shaping, every piece is carefully polished and finished
-                                to achieve a smooth, refined look. This step enhances shine, comfort,
-                                and overall quality.
-                            </p>
-                        </div>
-
-                        <div class="processes" style="border-bottom: none;">
-                            <div class="process_number">process 4</div>
-                            <h2>Quality Check & Packaging</h2>
-                            <p>Each piece is inspected to ensure it meets our quality standards.
-                                It is then gently packed in protective,
-                                elegant packaging—ready to reach you safely.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="right-div">
-                        <img src="/contents/Material_Selection.png" alt="Material Selection Png">
-                    </div>
-                </div>
-            </section>
-
-            <!------------------------------------------------------------------------------------- Instagram --------------------------------------------------------------------------->
-
-            <section id="instagram">
-                <div class="heading">
-                    <h2>@celestial_luxe_official</h2>
-                    <img src="/contents/lines-for-instagram.png" alt="Lines">
-                </div>
-
-                <div class="images">
-                    <div>
-                        <img class="ig_logo" src="/contents/ig.png" alt="ig_logo">
-                        <img class="main_img" src="/contents/insta_images/ig1.png" alt="ig1">
-                    </div>
-                    <div>
-                        <img class="ig_logo" src="/contents/ig.png" alt="ig_logo">
-                        <img class="main_img" src="/contents/insta_images/ig2.png" alt="ig2">
-                    </div>
-                    <div>
-                        <img class="ig_logo" src="/contents/ig.png" alt="ig_logo">
-                        <img class="main_img" src="/contents/insta_images/ig3.png" alt="ig3">
-                    </div>
-                    <div>
-                        <img class="ig_logo" src="/contents/ig.png" alt="ig_logo">
-                        <img class="main_img" src="/contents/insta_images/ig4.png" alt="ig4">
-                    </div>
-                    <div>
-                        <img class="ig_logo" src="/contents/ig.png" alt="ig_logo">
-                        <img class="main_img" src="/contents/insta_images/ig5.png" alt="ig5">
-                    </div>
-                    <div>
-                        <img class="ig_logo" src="/contents/ig.png" alt="ig_logo">
-                        <img class="main_img" src="/contents/insta_images/ig6.png" alt="ig6">
-                    </div>
-                    <div>
-                        <img class="ig_logo" src="/contents/ig.png" alt="ig_logo">
-                        <img class="main_img" src="/contents/insta_images/ig7.png" alt="ig7">
-                    </div>
-                    <div>
-                        <img class="ig_logo" src="/contents/ig.png" alt="ig_logo">
-                        <img class="main_img" src="/contents/insta_images/ig8.png" alt="ig8">
-                    </div>
-                    <div>
-                        <img class="ig_logo" src="/contents/ig.png" alt="ig_logo">
-                        <img class="main_img" src="/contents/insta_images/ig9.png" alt="ig9">
-                    </div>
-                    <div>
-                        <img class="ig_logo" src="/contents/ig.png" alt="ig_logo">
-                        <img class="main_img" src="/contents/insta_images/ig10.png" alt="ig10">
-                    </div>
-                    <div>
-                        <img class="ig_logo" src="/contents/ig.png" alt="ig_logo">
-                        <img class="main_img" src="/contents/insta_images/ig11.png" alt="ig11">
-                    </div>
-                    <div>
-                        <img class="ig_logo" src="/contents/ig.png" alt="ig_logo">
-                        <img class="main_img" src="/contents/insta_images/ig12.png" alt="ig12">
-                    </div>
-                    
-                </div>
-
-            </section>
-
-            <!--------------------------------------------------------------------------------- Join Our Newsletter --------------------------------------------------------------------->
-
-            <section id="join-our-newsletter">
-
-                <h2>Join Our Newsletter</h2>
-                <p>By entering your email address, you will receive our latest update and special deals & discounts </p>
                 <div>
-                    <input type="text">
-                    <button>Submit</button>
+                    <img class="ig_logo" src="/contents/ig.png" alt="ig_logo">
+                    <img class="main_img" src="/contents/insta_images/ig2.png" alt="ig2">
+                </div>
+                <div>
+                    <img class="ig_logo" src="/contents/ig.png" alt="ig_logo">
+                    <img class="main_img" src="/contents/insta_images/ig3.png" alt="ig3">
+                </div>
+                <div>
+                    <img class="ig_logo" src="/contents/ig.png" alt="ig_logo">
+                    <img class="main_img" src="/contents/insta_images/ig4.png" alt="ig4">
+                </div>
+                <div>
+                    <img class="ig_logo" src="/contents/ig.png" alt="ig_logo">
+                    <img class="main_img" src="/contents/insta_images/ig5.png" alt="ig5">
+                </div>
+                <div>
+                    <img class="ig_logo" src="/contents/ig.png" alt="ig_logo">
+                    <img class="main_img" src="/contents/insta_images/ig6.png" alt="ig6">
+                </div>
+                <div>
+                    <img class="ig_logo" src="/contents/ig.png" alt="ig_logo">
+                    <img class="main_img" src="/contents/insta_images/ig7.png" alt="ig7">
+                </div>
+                <div>
+                    <img class="ig_logo" src="/contents/ig.png" alt="ig_logo">
+                    <img class="main_img" src="/contents/insta_images/ig8.png" alt="ig8">
+                </div>
+                <div>
+                    <img class="ig_logo" src="/contents/ig.png" alt="ig_logo">
+                    <img class="main_img" src="/contents/insta_images/ig9.png" alt="ig9">
+                </div>
+                <div>
+                    <img class="ig_logo" src="/contents/ig.png" alt="ig_logo">
+                    <img class="main_img" src="/contents/insta_images/ig10.png" alt="ig10">
+                </div>
+                <div>
+                    <img class="ig_logo" src="/contents/ig.png" alt="ig_logo">
+                    <img class="main_img" src="/contents/insta_images/ig11.png" alt="ig11">
+                </div>
+                <div>
+                    <img class="ig_logo" src="/contents/ig.png" alt="ig_logo">
+                    <img class="main_img" src="/contents/insta_images/ig12.png" alt="ig12">
                 </div>
 
-            </section>
+            </div>
 
-        </main>
-        <!------------------------------------------------------------------------------------------- Footer ---------------------------------------------------------------------------->
-        <footer>
-            <div class="footer-container">
-                <div class="footer-left">
-                    <div class="brand-name">Celestial Luxe</div>
-                    <div class="contact-info">
-                        <div class="phone">
-                            <img src="contents/phone.png" alt="phone">
-                            +91 12345 54321
-                        </div>
-                        <div class="email">
-                            <img src="contents/email.png" alt="email">
-                            example@celestial.com
-                        </div>
-                        <div class="location">
-                            <img src="contents/location.png" alt="location">
-                            Kolkata, India
-                        </div>
+        </section>
+
+        <!--------------------------------------------------------------------------------- Join Our Newsletter --------------------------------------------------------------------->
+
+        <section id="join-our-newsletter">
+
+            <h2>Join Our Newsletter</h2>
+            <p>By entering your email address, you will receive our latest update and special deals & discounts </p>
+            <div>
+                <input type="text">
+                <button>Submit</button>
+            </div>
+
+        </section>
+
+    </main>
+    <!------------------------------------------------------------------------------------------- Footer ---------------------------------------------------------------------------->
+    <footer>
+        <div class="footer-container">
+            <div class="footer-left">
+                <div class="brand-name">Celestial Luxe</div>
+                <div class="contact-info">
+                    <div class="phone">
+                        <img src="contents/phone.png" alt="phone">
+                        +91 12345 54321
+                    </div>
+                    <div class="email">
+                        <img src="contents/email.png" alt="email">
+                        example@celestial.com
+                    </div>
+                    <div class="location">
+                        <img src="contents/location.png" alt="location">
+                        Kolkata, India
                     </div>
                 </div>
-                <div class="footer-right">
-                    <ul class="social-icons">
-                        <li><a target="_blank" rel="noopener noreferrer" href="#"><img src="contents/whatsapp.png" alt="whatsapp"></a></li>
-                        <li><a target="_blank" rel="noopener noreferrer" href="#"><img src="contents/ig.png" alt="instagram"></a></li>
-                        <li><a target="_blank" rel="noopener noreferrer" href="#"><img src="contents/fb.png" alt="facebook"></a></li>
-                    </ul>
-                    <ul class="footer-links">
-                        <li><a target="_blank" rel="noopener noreferrer" href="#">Privacy Policy</a></li>
-                        <li><a target="_blank" rel="noopener noreferrer" href="#">Terms and Condition</a></li>
-                        <li><a target="_blank" rel="noopener noreferrer" href="#">Track Order</a></li>
-                        <li><a target="_blank" rel="noopener noreferrer" href="https://frostela.com/">Site by Frostela</a></li>
-                    </ul>
-                </div>
             </div>
-            <div class="footer-bottom">
-                <p>© 2024 Celestial Luxe. All rights reserved</p>
+            <div class="footer-right">
+                <ul class="social-icons">
+                    <li><a target="_blank" rel="noopener noreferrer" href="#"><img src="contents/whatsapp.png"
+                                alt="whatsapp"></a></li>
+                    <li><a target="_blank" rel="noopener noreferrer" href="#"><img src="contents/ig.png"
+                                alt="instagram"></a></li>
+                    <li><a target="_blank" rel="noopener noreferrer" href="#"><img src="contents/fb.png"
+                                alt="facebook"></a></li>
+                </ul>
+                <ul class="footer-links">
+                    <li><a target="_blank" rel="noopener noreferrer" href="#">Privacy Policy</a></li>
+                    <li><a target="_blank" rel="noopener noreferrer" href="#">Terms and Condition</a></li>
+                    <li><a target="_blank" rel="noopener noreferrer" href="#">Track Order</a></li>
+                    <li><a target="_blank" rel="noopener noreferrer" href="https://frostela.com/">Site by Frostela</a>
+                    </li>
+                </ul>
             </div>
-        </footer>
-    </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2024 Celestial Luxe. All rights reserved</p>
+        </div>
+    </footer>
+
     <script src="https://unpkg.com/lenis@1.3.17/dist/lenis.min.js"></script>
     <script src="script.js"></script>
 </body>

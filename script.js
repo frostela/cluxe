@@ -50,71 +50,71 @@ document.addEventListener("DOMContentLoaded", function () {
   const cardData = [
     {
       title: "Floral Pearl Jhumka",
-      image: "contents/product_images/Earrings/earring_1.png",
-      star: "contents/stars.png",
+      image: "/contents/product_images/Earrings/earring_1.png",
+      star: "/contents/stars.png",
       reviews: "34 Reviews",
       Price: "Rs. 450.00",
       msrp: "Rs. 650.00"
     },
     {
       title: "Antique Bell Jhumka",
-      image: "contents/product_images/Earrings/earring_4.png",
-      star: "contents/stars.png",
+      image: "/contents/product_images/Earrings/earring_4.png",
+      star: "/contents/stars.png",
       reviews: "42 Reviews",
       Price: "Rs. 480.00",
       msrp: "Rs. 690.00"
     },
     {
       title: "Crystal Drop Earrings",
-      image: "contents/product_images/Earrings/earring_5.png",
-      star: "contents/stars.png",
+      image: "/contents/product_images/Earrings/earring_5.png",
+      star: "/contents/stars.png",
       reviews: "27 Reviews",
       Price: "Rs. 410.00",
       msrp: "Rs. 560.00"
     },
     {
       title: "Floral Engraved Churi",
-      image: "contents/product_images/Churies/ch2.png",
-      star: "contents/stars.png",
+      image: "/contents/product_images/Churies/ch2.png",
+      star: "/contents/stars.png",
       reviews: "24 Reviews",
       Price: "Rs. 560.00",
       msrp: "Rs. 780.00"
     },
     {
       title: "Minimalist Golden Pair",
-      image: "contents/product_images/Churies/ch5.png",
-      star: "contents/stars.png",
+      image: "/contents/product_images/Churies/ch5.png",
+      star: "/contents/stars.png",
       reviews: "20 Reviews",
       Price: "Rs. 480.00",
       msrp: "Rs. 650.00"
     },
     {
       title: "Crystal Bloom Ring",
-      image: "contents/product_images/Rings/ring_2.png",
-      star: "contents/stars.png",
+      image: "/contents/product_images/Rings/ring_2.png",
+      star: "/contents/stars.png",
       reviews: "19 Reviews",
       Price: "Rs. 340.00",
       msrp: "Rs. 520.00"
     },
     {
       title: "Antique Gold Ring",
-      image: "contents/product_images/Rings/ring_3.png",
-      star: "contents/stars.png",
+      image: "/contents/product_images/Rings/ring_3.png",
+      star: "/contents/stars.png",
       reviews: "14 Reviews",
       Price: "Rs. 310.00",
       msrp: "Rs. 470.00"
     },
     {
       title: "Floral Charm Pendant",
-      image: "contents/product_images/Pendants/pend_2.png",
-      star: "contents/stars.png",
+      image: "/contents/product_images/Pendants/pend_2.png",
+      star: "/contents/stars.png",
       reviews: "33 Reviews",
       Price: "Rs. 570.00",
       msrp: "Rs. 760.00"
     },
     {
       title: "Pearl Drop Pendant",
-      image: "contents/product_images/Pendants/pend_3.png",
+      image: "/contents/product_images/Pendants/pend_3.png",
       star: "contents/stars.png",
       reviews: "28 Reviews",
       Price: "Rs. 540.00",
